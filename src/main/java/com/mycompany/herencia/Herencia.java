@@ -5,8 +5,9 @@ public class Herencia {
 
     public static void main(String[] args) {
         
-        Empleado emple1 = new Empleado();
+        //Herencia
         
+        Empleado emple1 = new Empleado();        
         emple1.nombre = "juan";
         emple1.apellido = "perez";
         emple1.id = 1;
@@ -19,5 +20,12 @@ public class Herencia {
         System.out.println(emple1.getId());
         System.out.println(emple1.getDni());
         System.out.println(emple1.getEmpresa());
+        
+        //Polimorfismo
+        
+        Persona vector [] = new Persona[5];
+        
+        vector[0] = new Persona();
+        vector[1] = new Empleado();
     }
 }
