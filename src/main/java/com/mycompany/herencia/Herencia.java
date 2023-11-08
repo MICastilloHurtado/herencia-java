@@ -27,5 +27,6 @@ public class Herencia {
         
         vector[0] = new Persona();
         vector[1] = new Empleado();
+        vector[2] = new Persona();
     }
 }
